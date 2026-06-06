@@ -15,10 +15,12 @@ on:
         options:
         - twrp-11
         - twrp-12.1
+        - twrp-14
+        - twrp-14.1
       DEVICE_TREE_URL:
         description: 'DEVICE_TREE_URL'
         required: true
-        default: 'https://github.com/LucasBlackLu/twrp_device_samsung_o1q.git'
+        default: 'https://github.com/DaniTheSillyFem/twrp_device_samsung_o1q.git'
       DEVICE_TREE_BRANCH:
         description: 'DEVICE_TREE_BRANCH'
         required: true
